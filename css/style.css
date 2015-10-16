@@ -1,0 +1,125 @@
+
+/********
+GENERAL
+********/
+
+/*light color background for the page*/
+body {
+	background-image: url("../images/greywood.jpg");
+}
+
+/*Colors
+#42647f - Light blue
+#87907D - Tan green
+#AAB6A2 - Light tan green
+#809999 - Greenish grey
+#bfcccc - Lighter tint of greenish grey
+#a6b7b7 - Darker of the one above, use for hover*/
+
+
+
+/********
+NAV
+********/
+
+.navbar {
+	background-color: #42647f;
+	border: 3px solid white;
+	margin-bottom: 0px;
+	max-height: 80px;
+}
+
+.logo {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 40px;
+}
+
+.navlist {
+	display: inline;
+	list-style: none;
+	text-align: center;
+}
+
+.navlink {
+	color: white;
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 680px) {
+	.logo	{
+		font-size: 24px;
+	}
+}
+
+@media screen and (min-width: 680px) and (max-width: 989px) {
+	.logo	{
+		font-size: 27px;
+	}
+}
+
+
+
+/********
+PARALLAX
+********/
+
+/*The following code is credited to Keith Clark's insight*/
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+/*end Keith Clark's insight*/
+
+
+
+/********
+PAGE
+********/
+
+#overflow-container {
+	background-image: url("../images/grey_frame.png");
+	background-size: 1200px 600px;
+	margin-left: 5%;
+	margin-right: 5%;
+	overflow: auto;
+	width: 1200px;
+	height: 600px;
+	margin-top: 175px;
+	margin-bottom: 175px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.matterhorn {
+	width: 150%;
+	height: 500px;
+	margin-top: 68px;
+	z-index: -8000;
+	position: relative;
+}
+
+
+
+/********
+FOOTER
+********/
+
+
