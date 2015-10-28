@@ -94,14 +94,26 @@ PARALLAX
 
 /*My Journey*/
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../images/greywood.jpg");
+  	background-image: url("../images/bw_wood_map.jpg");
+   padding-top: 5%;
+   padding-bottom: 15%;
+   border-bottom: 3px ridge grey;
  }
 
 /*Artifacts*/
 .cd-fixed-bg.cd-bg-2 {
-  	background-image: url("../images/mvp_background.jpg");
+  	background-image: url("../images/wood_map.jpg");
   	height: 1800px;
+  	padding-top: 3%;
+  	border-bottom: 3px ridge #926239;
 }
+
+/*Skills*/
+.cd-fixed-bg.cd-bg-3 {
+  	background-image: url("../images/desk.jpg");
+  	height: 1000px;
+}
+
 
 
 /********
