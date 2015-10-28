@@ -1,64 +1,139 @@
 <!DOCTYPE html>
 
-<html>
+<!-- <html>
 
-<head>
-	<title>Nicholas Wallace | Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Pacifico|Comfortaa: 400, 300, 700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="row">
-				<!-- Title with a sub title underneath (webdev something) then three nav buttons to the right with About Me, Projects, and Contact -->
-				<h1 class="logo col-xs-4"><a class="logo" href="index.html">Nicholas Wallace</a></h1>
-				<!-- Need to make these responsive -->
-				<div class="navbar-header">
-					<button type="button" class="hammenu navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-label="Hamburger Menu">
-  						<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="navlist">
-						<li>
-							<a class="navlink col-xs-2" href="index.html">About</a>
-						</li>
-						<li>
-							<a class="navlink col-xs-2" href="projects.html">Projects</a>
-						</li>
-						<li>
-							<a class="navlink col-xs-2" href="projects.html">Skills</a>
-						</li>
-						<li>
-							<a class="navlink col-xs-2" href="contact.html">Contact</a>
-						</li>
-					</ul>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nicholas Wallace | Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Pacifico|Comfortaa: 400, 300, 700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+		</script>
+	</head> -->
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<!-- Title with a sub title underneath (webdev something) then three nav buttons to the right with About Me, Projects, and Contact -->
+					<h1 class="col-xs-4"><a class="name" href="index.html">Nicholas Wallace</a></h1>
+					<!-- Need to make these responsive -->
+					<div class="navbar-header">
+						<button type="button" class="hammenu navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-label="Hamburger Menu">
+	  						<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="navlist">
+							<li>
+								<a class="navlink col-xs-2" href="#journey">My Journey</a>
+							</li>
+							<li>
+								<a class="navlink col-xs-2" href="#artifacts">Artifacts</a>
+							</li>
+							<li>
+								<a class="navlink col-xs-2" href="#skills">Skills</a>
+							</li>
+							<li>
+								<a class="navlink col-xs-2" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
 
-	<!-- First Page is the "About"... It contains a sightly darker grey wood frame with a picture inside that will be scroll jacked. -->
-	<div class="parallax">
-		<div class="parallax__layer parallax__layer--back">
-		</div>
-		<div class="parallax__layer parallax__layer--base">
-			<section>
-				<div id="overflow-container">
-					<section>
-						<img class="matterhorn" src="images/matterhorn.jpg">
-					</section>
-				</div>
-			</section>
-		</div>
-	</div>
+
+				<section id="journey" class="cd-fixed-bg cd-bg-1">
+					<h2 class="journey_title">My Journey</h2>
+					<img class="frame_photo" src="images/mvp_background.jpg">
+<!-- Not so sure about having these buttons in rows -->
+					<button type="button" class="map-btn map_button1" data-toggle="popover" data-placement="top" data-title="Beginning the Trek" data-content="Early years and philosophy..."></button>
+					<br>
+					<button type="button" class="map-btn map_button2" data-toggle="popover" data-placement="bottom" data-title="Base Camp" data-content="Vision for the climb..."></button>
+					<br>
+					<button type="button" class="map-btn map_button3" data-toggle="popover" data-placement="left" data-title="Climbing the mountain" data-content="Current Status..."></button>
+					<br>
+					<button type="button" class="map-btn map_button4" data-toggle="popover" data-placement="right" data-title="The Summit" data-content="View from the top..."></button>
+				</section>
+				<section id="artifacts" class="container-fluid cd-fixed-bg cd-bg-2">
+					<h2 class="section_title">Artifacts</h2>
+					<div class="project1_position">
+						<a href="https://github.com/atxdubya/tic_tac_toe_project">
+							<img src="images/project1.jpg">
+						</a>
+					</div>
+					<div class="project2_position">
+						<a href="https://github.com/atxdubya/Growler">
+							<img src="images/project2.jpg">
+						</a>
+					</div>
+					<div class="project3_position">
+						<a href="https://github.com/atxdubya/MASH.app">
+							<img src="images/project3.jpg">
+						</a>
+					</div>
+					<div class="project4_position">
+						<a href="https://github.com/Sahedeva/BarTinder">
+							<img src="images/project4.jpg">
+						</a>
+					</div>
+				</section>
+				<section id="skills" class="container-fluid skills_container">
+					<h2 class="section_title">Skills</h2>
+				</section>
+				<section id="contact" class="container-fluid contact_container">
+					<h2 class="section_title">Contact</h2>
+					<p class="contact_info">
+						Name: Nicholas Wallace
+						<br>
+						<br>
+						Email: nicholas@bluematterhorn.com
+						<br>
+						<br>
+						GitHub: <a class="contact_links" href="https://github.com/atxdubya">https://github.com/atxdubya</a>
+						<br>
+						<br>
+						Instagram: <a class="contact_links" href="https://instagram.com/atxdubya/">@atxdubya</a>
+						<br>
+						<br>
+						Twitter: <a class="contact_links" href="https://twitter.com/atxdubya">@atxdubya</a>
+					</p>
+				</section>
+
+				
+<!-- 			</div>
+		</div> -->
 
 	<!-- Begin second page, aka "Projects" -->
+	<script type="text/javascript">
+		$(function() {
+	  		$('[data-toggle="popover"]').popover()
+		});
+
+		// $(window).scroll(function() {
+  // 			$(".map-btn").fadeOut();
+		// });
 
 
-</body>
-
+	</script>
+	</body>
 </html>
+
+
+
+
+
+<!-- This code is to help future polaroid projects get the information correctly formattted in Photoshop.
+				<section id="skills" class="container-fluid skills_container">
+					<h2 class="section_title">Skills</h2>
+					<p class="photo_text">
+						<span style="text-decoration:underline">Site Overview:</span> Micro blogging app called Growler
+						<br>
+						<span style="text-decoration:underline">My Contributions:</span> Pair-programmed the front-end design and back-end functionality
+						<br>
+						<span style="text-decoration:underline">Skills Used:</span> HTML, CSS, Bootstrap, Ruby, Sinatra
+				</section> -->

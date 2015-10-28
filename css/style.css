@@ -5,7 +5,18 @@ GENERAL
 
 /*light color background for the page*/
 body {
-	background-image: url("../images/greywood.jpg");
+	background-color: blue;
+	height: 100%;
+	margin: 0px;
+}
+
+.section_title {
+	text-align: center;
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;	
+	text-decoration: underline;
+	padding-top: 8%;
 }
 
 /*Colors
@@ -26,10 +37,9 @@ NAV
 	background-color: #42647f;
 	border: 3px solid white;
 	margin-bottom: 0px;
-	max-height: 80px;
 }
 
-.logo {
+.name {
 	font-family: 'Pacifico', cursive;
 	color: white;
 	font-size: 40px;
@@ -48,14 +58,19 @@ NAV
 	font-weight: 400;
 }
 
+.navlink:hover {
+	background-color: white;
+	color: #42647f;
+}
+
 @media screen and (max-width: 680px) {
-	.logo	{
+	.name	{
 		font-size: 24px;
 	}
 }
 
 @media screen and (min-width: 680px) and (max-width: 989px) {
-	.logo	{
+	.name	{
 		font-size: 27px;
 	}
 }
@@ -66,54 +81,172 @@ NAV
 PARALLAX
 ********/
 
-/*The following code is credited to Keith Clark's insight*/
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+.cd-fixed-bg {
+	height: 100%;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 1;
+	padding: 0px;
 }
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
+/*My Journey*/
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/greywood.jpg");
+ }
+
+/*Artifacts*/
+.cd-fixed-bg.cd-bg-2 {
+  	background-image: url("../images/mvp_background.jpg");
+  	height: 1800px;
 }
-.parallax__layer--base {
-  transform: translateZ(0);
+
+
+/********
+MY JOURNEY
+********/
+
+.frame_photo {
+	width: 75%;
+	height: 75%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 8%;
 }
-.parallax__layer--back {
-  transform: translateZ(-1px);
+
+.journey_title {
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;
+	text-decoration: underline;
+	margin-top: 8.8%;
+	margin-left: 43%;
+	position: absolute;
 }
-/*end Keith Clark's insight*/
+
+.map_button1 {
+	background-color: red;
+   border: 2px solid white;
+   border-radius: 50%;
+   width: 0%;
+   height: 0%;
+   margin-top: -17.25%;
+   margin-left: 32%;
+   position: absolute;
+}
+
+.map_button2 {
+	background-color: red;
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 0%;
+	height: 0%;
+	margin-top: -15.45%;
+	margin-left: 42.2%;
+	position: absolute;
+}
+
+.map_button3 {
+	background-color: red;
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 0%;
+	height: 0%;
+	margin-top: -25.3%;
+	margin-left: 54.55%;
+	position: absolute;
+}
+
+.map_button4 {
+	background-color: red;
+	border: 2px solid white;
+	border-radius: 100%;
+	margin-top: -33.4%;
+	margin-left: 59.92%;
+	position: absolute;
+}
 
 
 
 /********
-PAGE
+ARTIFACTS
 ********/
 
-#overflow-container {
-	background-image: url("../images/grey_frame.png");
-	background-size: 1200px 600px;
-	margin-left: 5%;
-	margin-right: 5%;
-	overflow: auto;
-	width: 1200px;
-	height: 600px;
-	margin-top: 175px;
-	margin-bottom: 175px;
-	margin-left: auto;
-	margin-right: auto;
+.project1_position {
+	margin-left: 11%;
+	margin-top: 4%;
+	display: inline-block;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+   -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+   transform: rotate(-7deg);
 }
 
-.matterhorn {
-	width: 150%;
-	height: 500px;
-	margin-top: 68px;
-	z-index: -8000;
-	position: relative;
+.project2_position {
+	margin-left: 62%;
+	margin-top: -3%;
+	display: inline-block;
+	-ms-transform: rotate(7deg); /* IE 9 */
+   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+   transform: rotate(7deg);
+}
+
+.project3_position {
+	margin-left: 11%;
+	margin-top: -3%;
+	display: inline-block;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+   -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+   transform: rotate(-7deg);
+}
+
+.project4_position {
+	margin-left: 62%;
+	margin-top: -3%;
+	display: inline-block;
+	-ms-transform: rotate(7deg); /* IE 9 */
+   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+   transform: rotate(7deg);
+}
+
+
+
+/********
+SKILLS
+********/
+
+.skills_container {
+	height: 1000px;
+	padding-top: 10%;
+}
+
+
+
+/********
+CONTACT
+********/
+
+.contact_container {
+	height: 1000px;
+	padding-top: 10%;
+}
+
+.contact_info {
+	border: 3px solid white;
+	background-color: #42647f;
+	color: white;
+	font-size: 18px;
+	width: 25%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+}
+
+.contact_links {
+	color: white;
+	text-decoration: underline;
 }
 
 
@@ -123,3 +256,53 @@ FOOTER
 ********/
 
 
+
+
+
+
+
+
+
+
+/********
+NOTES
+********/
+
+/*1. Might be able to make the "section_containers" more DRY*/
+
+/*2. This code is to help future polaroid projects get the information correctly formattted in Photoshop.
+
+.photo_text {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	width: 340px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 3px;
+	margin-top: 107px;
+}
+
+.skills_container {
+	height: 1000px;
+	padding-top: 10%;
+	background-image: url("../images/polaroid2.png");
+}
+
+*/
+
+/*3.*/
+
+/*Just in case for post-MVP
+
+<div id="overflow-container">
+	<h2 class="section_title">About</h2>
+	<img class="matterhorn" src="images/matterhorn.jpg">
+</div>
+
+.matterhorn {
+	width: 100%;
+	height: 500px;
+	z-index: -8000;
+	position: relative;
+	overflow: hidden;
+}*/
