@@ -139,7 +139,7 @@ PARALLAX
 
 /*Contact*/
 .cd-fixed-bg.cd-bg-4 {
-  	background-image: url("../images/contact.jpg");
+  	/*background-image: url("../images/contact.jpg");*/
   	height: 800px;
 }
 
@@ -159,51 +159,60 @@ MY ADVENTURE
 
 .adventure_title {
 	font-size: 2.5em;
-	padding-top: 5.58%;
-	margin-left: 43%;
+	padding-top: 5.25%;
+	right: 0%;
+	left: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+}
+
+.map-btn {
+	background-color: red;
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 0%;
+	height: 0%;
 	position: absolute;
 }
 
 .map_button1 {
-	background-color: red;
-   border: 2px solid white;
-   border-radius: 50%;
-   width: 0%;
-   height: 0%;
-   margin-top: -17.25%;
-   margin-left: 32%;
-   position: absolute;
+   	margin-top: -18%;
+   	margin-left: 30%;
 }
 
 .map_button2 {
-	background-color: red;
-	border: 2px solid white;
-	border-radius: 100%;
-	width: 0%;
-	height: 0%;
-	margin-top: -15.45%;
-	margin-left: 42.2%;
-	position: absolute;
+    margin-top: -16%;
+    margin-left: 41.5%;
+    display: none;
 }
 
 .map_button3 {
-	background-color: red;
-	border: 2px solid white;
-	border-radius: 100%;
-	width: 0%;
-	height: 0%;
-	margin-top: -25.3%;
-	margin-left: 54.55%;
-	position: absolute;
+	margin-top: -26%;
+    margin-left: 54.5%;
+    display: none;
 }
 
 .map_button4 {
-	background-color: red;
-	border: 2px solid white;
-	border-radius: 100%;
-	margin-top: -33.4%;
-	margin-left: 59.92%;
+	margin-top: -35%;
+    margin-left: 60.5%;
+    display: none;
+}
+
+.trail {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1em;
+	color: red;
+	font-weight: 700;
+	background-color: white;
+	border: 2px ridge red;
+	margin-right: auto;
+	margin-left: 20.5%;
+	margin-top: -18.5%;
 	position: absolute;
+	-webkit-animation-duration: .5s;
+	-webkit-animation-delay: .25s;
+	-webkit-animation-iteration-count: 10;
 }
 
 
@@ -214,7 +223,7 @@ ARTIFACTS
 
 .project1_position {
 	margin-left: 11%;
-	margin-top: 4%;
+	margin-top: 8%;
 	display: inline-block;
 	-ms-transform: rotate(-7deg); /* IE 9 */
    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
@@ -305,7 +314,6 @@ CONTACT
 /********
 FOOTER
 ********/
-
 
 
 
