@@ -139,7 +139,9 @@ PARALLAX
 
 /*Contact*/
 .cd-fixed-bg.cd-bg-4 {
-  	/*background-image: url("../images/contact.jpg");*/
+  	background-image: url("../images/logo.png");
+  	background-color: white;
+  	background-size: 80% 80%;
   	height: 800px;
 }
 
@@ -277,36 +279,49 @@ SKILLS
 }
 
 .list_title {
+	font-size: 28px;
 	font-weight: 700;
 	text-decoration: underline;
 }
 
 .skills_list {
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0px;
 }
 
+.rotate {
+	-webkit-transform: rotate(45deg);
+}
 
 
 /********
 CONTACT
 ********/
 
+.contact_title {
+	color: black;
+}
+
 .contact_info {
-	border: 3px ridge white;
+	border: 5px ridge grey;
 	background-color: black;
 	color: white;
 	font-family: 'Comfortaa', cursive;
 	font-size: 18px;
 	width: 30%;
-	margin-top: 15%;
-	margin-left: 10%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 1%;
 }
 
 .contact_links {
 	color: white;
 	text-decoration: underline;
+}
+
+.contact_links:hover {
+	color: #42647f;
 }
 
 
