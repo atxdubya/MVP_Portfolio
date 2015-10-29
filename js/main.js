@@ -3,11 +3,10 @@ $(function() {
 
 	var trail = 'animated pulse';
 
+// Adventure Page
 	$('[data-toggle="popover"]').popover();
 
 	$('.trail').addClass(trail);
-
-	$
 
 	$('.map_button1').click(function() {
 		$('.map_button2').show(2000);
