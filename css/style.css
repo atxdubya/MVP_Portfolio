@@ -14,7 +14,7 @@ body {
 	text-align: center;
 	color: white;
 	font-family: 'Pacifico', cursive;
-	font-size: 2.5em;	
+	font-size: 3em;	
 	text-decoration: underline;
 	padding-top: 8%;
 }
@@ -22,6 +22,7 @@ body {
 li {
 	list-style: none;
 }
+
 /*Colors
 #42647f - Light blue
 #87907D - Tan green
@@ -36,6 +37,13 @@ li {
 NAV
 ********/
 
+.navlogo {
+	margin-right: 1%;
+    margin-left: 1%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .navbar {
 	background-color: black;
 	border: 5px ridge white;
@@ -43,30 +51,35 @@ NAV
 }
 
 .h1_name {
-	padding-left: 0px;
-	padding-right: 30px;
+	padding: 0px;
 	margin-top: 10px;
+	text-align: right;
 }
 
 .name {
 	font-family: 'Pacifico', cursive;
 	color: white;
-	font-size: 48px;
+	font-size: 42px;
+}
+
+.name:hover {
+	color: #42647f;
+	text-decoration: none;
 }
 
 .navlist {
 	display: inline;
-	list-style: none;
-	text-align: center;
+	text-align: right;
 }
 
 .navlink {
-	color: white;
-	font-size: 24px;
-	font-family: 'Comfortaa', cursive;
-	font-weight: 700;
-	padding-left: 30px;
-	padding-right: 0px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    padding: 0px;
+    width: 175px;
+    margin-left: 36px;
 }
 
 .navlink:hover {
@@ -102,99 +115,104 @@ PARALLAX
 	padding: 0px;
 }
 
-/*My Journey*/
+/*My Adventure*/
 .cd-fixed-bg.cd-bg-1 {
-  	background-image: url("../images/bw_hike_shutter.jpg");
+	background-image: url("../images/bw_hike_shutter.jpg");
    padding-top: 5%;
-   padding-bottom: 15%;
-   border-bottom: 3px ridge grey;
+   padding-bottom: 8%;
+   border-bottom: 5px ridge grey;
  }
 
 /*Artifacts*/
 .cd-fixed-bg.cd-bg-2 {
   	background-image: url("../images/hike_shutter.jpg");
   	height: 1800px;
-  	padding-top: 3%;
-  	border-bottom: 3px ridge #926239;
+  	border-bottom: 5px ridge #926239;
 }
 
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
   	background-image: url("../images/traveldesk_shutter.jpg");
-  	height: 1000px;
-  	border-bottom: 3px ridge black;
+  	height: 900px;
+  	border-bottom: 5px ridge black;
 }
 
 /*Contact*/
 .cd-fixed-bg.cd-bg-4 {
-  	background-image: url("../images/contact.jpg");
-  	height: 1000px;
+  	/*background-image: url("../images/contact.jpg");*/
+  	height: 800px;
 }
 
 
 
 /********
-MY JOURNEY
+MY ADVENTURE
 ********/
 
 .frame_photo {
-	width: 75%;
-	height: 75%;
+	width: 80%;
+	height: 80%;
 	display: block;
 	margin: 0 auto;
-	padding-top: 8%;
+	padding-top: 6%;
 }
 
-.journey_title {
-	color: white;
-	font-family: 'Pacifico', cursive;
+.adventure_title {
 	font-size: 2.5em;
-	text-decoration: underline;
-	margin-top: 8.8%;
-	margin-left: 43%;
+	padding-top: 5.25%;
+	right: 0%;
+	left: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+}
+
+.map-btn {
+	background-color: red;
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 0%;
+	height: 0%;
 	position: absolute;
 }
 
 .map_button1 {
-	background-color: red;
-   border: 2px solid white;
-   border-radius: 50%;
-   width: 0%;
-   height: 0%;
-   margin-top: -17.25%;
-   margin-left: 32%;
-   position: absolute;
+   	margin-top: -18%;
+   	margin-left: 30%;
 }
 
 .map_button2 {
-	background-color: red;
-	border: 2px solid white;
-	border-radius: 100%;
-	width: 0%;
-	height: 0%;
-	margin-top: -15.45%;
-	margin-left: 42.2%;
-	position: absolute;
+    margin-top: -16%;
+    margin-left: 41.5%;
+    display: none;
 }
 
 .map_button3 {
-	background-color: red;
-	border: 2px solid white;
-	border-radius: 100%;
-	width: 0%;
-	height: 0%;
-	margin-top: -25.3%;
-	margin-left: 54.55%;
-	position: absolute;
+	margin-top: -26%;
+    margin-left: 54.5%;
+    display: none;
 }
 
 .map_button4 {
-	background-color: red;
-	border: 2px solid white;
-	border-radius: 100%;
-	margin-top: -33.4%;
-	margin-left: 59.92%;
+	margin-top: -35%;
+    margin-left: 60.5%;
+    display: none;
+}
+
+.trail {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1em;
+	color: red;
+	font-weight: 700;
+	background-color: white;
+	border: 2px ridge red;
+	margin-right: auto;
+	margin-left: 20.5%;
+	margin-top: -18.5%;
 	position: absolute;
+	-webkit-animation-duration: .5s;
+	-webkit-animation-delay: .25s;
+	-webkit-animation-iteration-count: 10;
 }
 
 
@@ -205,7 +223,7 @@ ARTIFACTS
 
 .project1_position {
 	margin-left: 11%;
-	margin-top: 4%;
+	margin-top: 8%;
 	display: inline-block;
 	-ms-transform: rotate(-7deg); /* IE 9 */
    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
@@ -245,19 +263,27 @@ ARTIFACTS
 SKILLS
 ********/
 
-.skills_container {
-	color: black;
-	margin-left: 55%;
-	margin-top: 9%;
-}
-
 .skills_title {
 	color: black;
 	padding-top: 7%;
 }
 
+.skills_container {
+	color: black;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	margin-left: 55%;
+	margin-top: 9%;
+}
+
+.list_title {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
 .skills_list {
 	font-size: 16px;
+	padding: 0px;
 }
 
 
@@ -266,18 +292,15 @@ SKILLS
 CONTACT
 ********/
 
-.contact_title {
-	padding-top: 6%;
-}
-
 .contact_info {
-	border: 3px solid white;
+	border: 3px ridge white;
 	background-color: black;
 	color: white;
+	font-family: 'Comfortaa', cursive;
 	font-size: 18px;
-	width: 25%;
-	margin-top: 10%;
-	margin-left: 15%;
+	width: 30%;
+	margin-top: 15%;
+	margin-left: 10%;
 	padding: 1%;
 }
 
@@ -291,7 +314,6 @@ CONTACT
 /********
 FOOTER
 ********/
-
 
 
 

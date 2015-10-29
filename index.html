@@ -8,19 +8,17 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Pacifico|Comfortaa: 400, 300, 700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="animate.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-		</script>
 	</head>
 
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<!-- Title with a sub title underneath (webdev something) then three nav buttons to the right with About Me, Projects, and Contact -->
-					<h1 class="col-xs-4 h1_name"><a class="name" href="index.html">Nicholas Wallace</a></h1>
+					<img class="col-xs-1 navlogo" src="images/logo_test.png">
+					<h1 class="col-xs-3 h1_name"><a class="name" href="index.html">Nicholas Wallace</a></h1>
 					<!-- Need to make these responsive -->
 					<div class="navbar-header">
 						<button type="button" class="hammenu navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-label="Hamburger Menu">
@@ -30,7 +28,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="navlist">
 							<li>
-								<a class="navlink col-xs-2" href="#journey">My Journey</a>
+								<a class="navlink col-xs-2" href="#adventure">My Adventure</a>
 							</li>
 							<li>
 								<a class="navlink col-xs-2" href="#artifacts">Artifacts</a>
@@ -48,17 +46,19 @@
 		</nav>
 
 
-				<section id="journey" class="cd-fixed-bg cd-bg-1">
-					<h2 class="journey_title">My Journey</h2>
+				<section id="adventure" class="cd-fixed-bg cd-bg-1">
+					<a href="#"><h2 class="section_title adventure_title">My Adventure</h2></a>
 					<img class="frame_photo" src="images/mvp_background.jpg">
 <!-- Not so sure about having these buttons in rows -->
+					<p class="trail">Start the trail &#8594;</p>
 					<button type="button" class="map-btn map_button1" data-toggle="popover" data-placement="top" data-title="Beginning the Trek" data-content="Early years and philosophy..."></button>
 					<br>
 					<button type="button" class="map-btn map_button2" data-toggle="popover" data-placement="bottom" data-title="Base Camp" data-content="Vision for the climb..."></button>
 					<br>
-					<button type="button" class="map-btn map_button3" data-toggle="popover" data-placement="left" data-title="Climbing the mountain" data-content="Current Status..."></button>
+					<button type="button" class="map-btn map_button3" data-toggle="popover" data-placement="left" data-title="The Climb" data-content="Current Status..."></button>
 					<br>
 					<button type="button" class="map-btn map_button4" data-toggle="popover" data-placement="right" data-title="The Summit" data-content="View from the top..."></button>
+					<!-- <a href="#"><h3 class="trail">Show Me The Trail</h3></a> -->
 				</section>
 				<section id="artifacts" class="container-fluid cd-fixed-bg cd-bg-2">
 					<h2 class="section_title">Artifacts</h2>
@@ -86,33 +86,34 @@
 				<section id="skills" class="container-fluid cd-fixed-bg cd-bg-3">
 					<h2 class="section_title skills_title">Skills</h2>
 					<div class="skills_container">
-						<h3>Proficiency</h3>
+						<h3 class="list_title">Proficiency</h3>
 						<ul class="skills_list">
-							<li>Wireframing</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>Bootstrap</li>
-							<li>JavaScript</li>
-							<li>jQuery</li>
-							<li>Git & GitHub</li>
-							<li>UX/UI</li>
-							<li>Photoshop</li>
+							<li>-Wireframing</li>
+							<li>-HTML</li>
+							<li>-CSS</li>
+							<li>-Bootstrap</li>
+							<li>-JavaScript</li>
+							<li>-jQuery</li>
+							<li>-Git & GitHub</li>
+							<li>-UX/UI</li>
+							<li>-Photoshop</li>
 						</ul>
 						<br>
-						<h3>Familiarity</h3>
+						<h3 class="list_title">Familiarity</h3>
 						<ul class="skills_list">
-							<li>Ruby</li>
-							<li>Ruby On Rails</li>
-							<li>Node.js</li>
-							<li>SQL</li>
-							<li>PostgreSQL</li>
-							<li>mySQL</li>
-							<li>APIs</li>
+							<li>-Ruby</li>
+							<li>-Ruby On Rails</li>
+							<li>-Node.js</li>
+							<li>-SQL</li>
+							<li>-PostgreSQL</li>
+							<li>-mySQL</li>
+							<li>-APIs</li>
 						</ul>
 					</div>
 				</section>
 				<section id="contact" class="container-fluid cd-fixed-bg cd-bg-4">
-					<h2 class="section_title contact_title">Contact</h2>
+					<button>TEST</button>
+					<h2 class="section_title">Contact</h2>
 					<p class="contact_info">
 						Name: Nicholas Wallace
 						<br>
@@ -143,12 +144,10 @@
 		</nav> -->
 
 	<!-- Begin second page, aka "Projects" -->
-	<script type="text/javascript">
-		$(function() {
-	  		$('[data-toggle="popover"]').popover()
-		});
-
-	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+		</script>
+	<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
 
