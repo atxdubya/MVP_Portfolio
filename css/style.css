@@ -5,7 +5,7 @@ GENERAL
 
 /*light color background for the page*/
 body {
-	background-color: blue;
+	background-color: black;
 	height: 100%;
 	margin: 0px;
 }
@@ -19,6 +19,9 @@ body {
 	padding-top: 8%;
 }
 
+li {
+	list-style: none;
+}
 /*Colors
 #42647f - Light blue
 #87907D - Tan green
@@ -34,15 +37,21 @@ NAV
 ********/
 
 .navbar {
-	background-color: #42647f;
-	border: 3px solid white;
+	background-color: black;
+	border: 5px ridge white;
 	margin-bottom: 0px;
+}
+
+.h1_name {
+	padding-left: 0px;
+	padding-right: 30px;
+	margin-top: 10px;
 }
 
 .name {
 	font-family: 'Pacifico', cursive;
 	color: white;
-	font-size: 40px;
+	font-size: 48px;
 }
 
 .navlist {
@@ -53,13 +62,14 @@ NAV
 
 .navlink {
 	color: white;
-	font-size: 18px;
+	font-size: 24px;
 	font-family: 'Comfortaa', cursive;
-	font-weight: 400;
+	font-weight: 700;
+	padding-left: 30px;
+	padding-right: 0px;
 }
 
 .navlink:hover {
-	background-color: white;
 	color: #42647f;
 }
 
@@ -94,7 +104,7 @@ PARALLAX
 
 /*My Journey*/
 .cd-fixed-bg.cd-bg-1 {
-  	background-image: url("../images/bw_wood_map.jpg");
+  	background-image: url("../images/bw_hike_shutter.jpg");
    padding-top: 5%;
    padding-bottom: 15%;
    border-bottom: 3px ridge grey;
@@ -102,7 +112,7 @@ PARALLAX
 
 /*Artifacts*/
 .cd-fixed-bg.cd-bg-2 {
-  	background-image: url("../images/wood_map.jpg");
+  	background-image: url("../images/hike_shutter.jpg");
   	height: 1800px;
   	padding-top: 3%;
   	border-bottom: 3px ridge #926239;
@@ -110,7 +120,14 @@ PARALLAX
 
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
-  	background-image: url("../images/desk.jpg");
+  	background-image: url("../images/traveldesk_shutter.jpg");
+  	height: 1000px;
+  	border-bottom: 3px ridge black;
+}
+
+/*Contact*/
+.cd-fixed-bg.cd-bg-4 {
+  	background-image: url("../images/contact.jpg");
   	height: 1000px;
 }
 
@@ -229,8 +246,18 @@ SKILLS
 ********/
 
 .skills_container {
-	height: 1000px;
-	padding-top: 10%;
+	color: black;
+	margin-left: 55%;
+	margin-top: 9%;
+}
+
+.skills_title {
+	color: black;
+	padding-top: 7%;
+}
+
+.skills_list {
+	font-size: 16px;
 }
 
 
@@ -239,20 +266,18 @@ SKILLS
 CONTACT
 ********/
 
-.contact_container {
-	height: 1000px;
-	padding-top: 10%;
+.contact_title {
+	padding-top: 6%;
 }
 
 .contact_info {
 	border: 3px solid white;
-	background-color: #42647f;
+	background-color: black;
 	color: white;
 	font-size: 18px;
 	width: 25%;
-	margin-top: 5%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 10%;
+	margin-left: 15%;
 	padding: 1%;
 }
 
