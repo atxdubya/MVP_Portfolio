@@ -9,7 +9,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Pacifico|Comfortaa: 400, 300, 700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>">
+		<link rel="stylesheet" href="animate.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
 		</script>
 	</head>
@@ -19,7 +20,7 @@
 			<div class="container">
 				<div class="row">
 					<!-- Title with a sub title underneath (webdev something) then three nav buttons to the right with About Me, Projects, and Contact -->
-					<h1 class="col-xs-4"><a class="name" href="index.html">Nicholas Wallace</a></h1>
+					<h1 class="col-xs-4 h1_name"><a class="name" href="index.html">Nicholas Wallace</a></h1>
 					<!-- Need to make these responsive -->
 					<div class="navbar-header">
 						<button type="button" class="hammenu navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-label="Hamburger Menu">
@@ -83,10 +84,35 @@
 					</div>
 				</section>
 				<section id="skills" class="container-fluid cd-fixed-bg cd-bg-3">
-					<h2 class="section_title">Skills</h2>
+					<h2 class="section_title skills_title">Skills</h2>
+					<div class="skills_container">
+						<h3>Proficiency</h3>
+						<ul class="skills_list">
+							<li>Wireframing</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Bootstrap</li>
+							<li>JavaScript</li>
+							<li>jQuery</li>
+							<li>Git & GitHub</li>
+							<li>UX/UI</li>
+							<li>Photoshop</li>
+						</ul>
+						<br>
+						<h3>Familiarity</h3>
+						<ul class="skills_list">
+							<li>Ruby</li>
+							<li>Ruby On Rails</li>
+							<li>Node.js</li>
+							<li>SQL</li>
+							<li>PostgreSQL</li>
+							<li>mySQL</li>
+							<li>APIs</li>
+						</ul>
+					</div>
 				</section>
-				<section id="contact" class="container-fluid contact_container">
-					<h2 class="section_title">Contact</h2>
+				<section id="contact" class="container-fluid cd-fixed-bg cd-bg-4">
+					<h2 class="section_title contact_title">Contact</h2>
 					<p class="contact_info">
 						Name: Nicholas Wallace
 						<br>
@@ -121,11 +147,6 @@
 		$(function() {
 	  		$('[data-toggle="popover"]').popover()
 		});
-
-		// $(window).scroll(function() {
-  // 			$(".map-btn").fadeOut();
-		// });
-
 
 	</script>
 	</body>
