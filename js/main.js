@@ -1,12 +1,12 @@
 
 $(function() {
 
-	var trail = 'animated pulse';
+// This animate function slows the page load down until it finishes
+// 	var trail = 'animated pulse';
+// 	$('.trail').addClass(trail);
 
 // Adventure Page
 	$('[data-toggle="popover"]').popover();
-
-	$('.trail').addClass(trail);
 
 	$('.map_button1').click(function() {
 		$('.map_button2').show(2000);
