@@ -132,7 +132,7 @@ PARALLAX
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
   	background-image: url("../images/traveldesk_shutter_screen.png");
-  	height: 1500px;
+  	height: 1700px;
   	border-bottom: 5px ridge black;
 }
 
@@ -188,8 +188,8 @@ MY ADVENTURE
 }
 
 .map_button3 {
-	margin-top: -26%;
-    margin-left: 54.5%;
+    margin-top: -25%;
+    margin-left: 54%;
     display: none;
 }
 
@@ -341,7 +341,7 @@ CONTACT
 	font-family: 'Comfortaa', cursive;
 	font-size: 18px;
 	width: 30%;
-    margin-top: 6%;
+    margin-top: 8%;
     margin-left: 4%;
 	padding: 1%;
 }
