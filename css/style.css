@@ -7,7 +7,7 @@ GENERAL
 body {
 	background-color: black;
 	height: 100%;
-	margin: 0px;
+	margin: 0%;
 }
 
 .section_title {
@@ -40,26 +40,25 @@ NAV
 .navlogo {
 	margin-right: 1%;
     margin-left: 1%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .navbar {
 	background-color: black;
 	border: 5px ridge white;
-	margin-bottom: 0px;
+	margin-bottom: 0%;
 }
 
 .h1_name {
-	padding: 0px;
-	margin-top: 10px;
+	padding: 0%;
 	text-align: right;
 }
 
 .name {
 	font-family: 'Pacifico', cursive;
 	color: white;
-	font-size: 42px;
+	font-size: 1.25em;
 }
 
 .name:hover {
@@ -74,12 +73,12 @@ NAV
 
 .navlink {
     color: white;
-    font-size: 18px;
+    font-size: 1.25em;
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
-    padding: 0px;
-    width: 175px;
-    margin-left: 36px;
+    padding: .5% 0%;
+    width: 12.5%;
+    margin-left: 2%;
 }
 
 .navlink:hover {
@@ -88,13 +87,13 @@ NAV
 
 @media screen and (max-width: 680px) {
 	.name	{
-		font-size: 24px;
+		font-size: .5em;
 	}
 }
 
 @media screen and (min-width: 680px) and (max-width: 989px) {
 	.name	{
-		font-size: 27px;
+		font-size: .75em;
 	}
 }
 
@@ -132,7 +131,7 @@ PARALLAX
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
   	background-image: url("../images/traveldesk_shutter_screen.png");
-  	height: 1700px;
+  	height: 1600px;
   	border-bottom: 5px ridge black;
 }
 
@@ -140,7 +139,7 @@ PARALLAX
 .cd-fixed-bg.cd-bg-4 {
   	background-image: url("../images/traveldesk_shutter_bw_pic.jpg");
   	background-color: white;
-  	height: 800px;
+  	height: 825px;
 }
 
 
@@ -159,7 +158,7 @@ MY ADVENTURE
 
 .adventure_title {
 	font-size: 3em;
-	padding-top: 5.25%;
+	padding-top: 5%;
 	right: 0%;
 	left: 0%;
 	margin-right: auto;
@@ -182,7 +181,7 @@ MY ADVENTURE
 }
 
 .map_button2 {
-    margin-top: -16%;
+    margin-top: -16.25%;
     margin-left: 41.5%;
     display: none;
 }
@@ -276,10 +275,6 @@ ARTIFACTS
 SKILLS
 ********/
 
-.skills {
-	margin-top: 10%;
-}
-
 .skills_title {
 	color: white;
 	font-size: 3em;
@@ -296,7 +291,7 @@ SKILLS
 .skills_container {
     color: white;
     font-family: 'Comfortaa', cursive;
-    margin-top: 35%;
+    margin-top: 26%;
     z-index: -1;
     margin-right: 3.5%;
 }
