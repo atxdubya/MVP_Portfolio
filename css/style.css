@@ -111,7 +111,6 @@ PARALLAX
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
-	z-index: 1;
 	padding: 0px;
 }
 
@@ -132,16 +131,15 @@ PARALLAX
 
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
-  	background-image: url("../images/traveldesk_shutter.jpg");
-  	height: 900px;
+  	background-image: url("../images/traveldesk_shutter_screen.png");
+  	height: 1500px;
   	border-bottom: 5px ridge black;
 }
 
 /*Contact*/
 .cd-fixed-bg.cd-bg-4 {
-  	background-image: url("../images/logo.png");
+  	background-image: url("../images/traveldesk_shutter_bw.jpg");
   	background-color: white;
-  	background-size: 80% 80%;
   	height: 800px;
 }
 
@@ -160,7 +158,7 @@ MY ADVENTURE
 }
 
 .adventure_title {
-	font-size: 2.5em;
+	font-size: 3em;
 	padding-top: 5.25%;
 	right: 0%;
 	left: 0%;
@@ -228,8 +226,8 @@ ARTIFACTS
 	margin-top: 8%;
 	display: inline-block;
 	-ms-transform: rotate(-7deg); /* IE 9 */
-   -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-   transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
 }
 
 .project2_position {
@@ -237,8 +235,8 @@ ARTIFACTS
 	margin-top: -3%;
 	display: inline-block;
 	-ms-transform: rotate(7deg); /* IE 9 */
-   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-   transform: rotate(7deg);
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
 }
 
 .project3_position {
@@ -246,8 +244,8 @@ ARTIFACTS
 	margin-top: -3%;
 	display: inline-block;
 	-ms-transform: rotate(-7deg); /* IE 9 */
-   -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-   transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
 }
 
 .project4_position {
@@ -255,8 +253,8 @@ ARTIFACTS
 	margin-top: -3%;
 	display: inline-block;
 	-ms-transform: rotate(7deg); /* IE 9 */
-   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-   transform: rotate(7deg);
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
 }
 
 
@@ -272,19 +270,20 @@ SKILLS
 .skills_title {
 	color: black;
 	padding-top: 7%;
+	font-size: 3em;
+	text-align: center;
 }
 
 .skills_container {
-	color: black;
-	font-family: 'Comfortaa', cursive;
-	background-color: white;
-	background-size: 50% 50%;
-	border: 3px ridge black;
-	height: 350px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 35%;
+    z-index: -1;
+    margin-right: 3%;
 }
 
 .list_title {
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: 700;
 	text-decoration: underline;
 	text-align: center;
@@ -294,12 +293,9 @@ SKILLS
 	font-size: 1.5em;
 	font-weight: 700;
 	padding: 0px;
-	padding-left: 28%;
+	text-align: center;
 }
 
-.rotate {
-	-webkit-transform: rotate(45deg);
-}
 
 
 /********
