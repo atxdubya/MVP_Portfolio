@@ -138,7 +138,7 @@ PARALLAX
 
 /*Contact*/
 .cd-fixed-bg.cd-bg-4 {
-  	background-image: url("../images/traveldesk_shutter_bw.jpg");
+  	background-image: url("../images/traveldesk_shutter_bw_pic.jpg");
   	background-color: white;
   	height: 800px;
 }
@@ -221,6 +221,19 @@ MY ADVENTURE
 ARTIFACTS
 ********/
 
+.artifacts_title {
+	color: #7a5230;
+	font-size: 3em;
+	border: 4px ridge #926239;
+	background-color: #d2b48c;
+	font-family: 'Pacifico', cursive;
+	width: 15%;
+	margin-top: 7.25%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+}
+
 .project1_position {
 	margin-left: 11%;
 	margin-top: 8%;
@@ -268,10 +281,16 @@ SKILLS
 }
 
 .skills_title {
-	color: black;
-	padding-top: 7%;
+	color: white;
 	font-size: 3em;
-	text-align: center;
+	border: 4px ridge white;
+	background-color: black;
+	font-family: 'Pacifico', cursive;
+	width: 15%;
+	margin-top: 7.25%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
 }
 
 .skills_container {
@@ -279,7 +298,7 @@ SKILLS
     font-family: 'Comfortaa', cursive;
     margin-top: 35%;
     z-index: -1;
-    margin-right: 3%;
+    margin-right: 3.5%;
 }
 
 .list_title {
@@ -304,18 +323,26 @@ CONTACT
 
 .contact_title {
 	color: black;
+	font-size: 3em;
+	border: 4px ridge black;
+	background-color: white;
+	font-family: 'Pacifico', cursive;
+	width: 15%;
+	margin-top: 7.25%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
 }
 
 .contact_info {
-	border: 5px ridge grey;
+	border: 4px ridge white;
 	background-color: black;
 	color: white;
 	font-family: 'Comfortaa', cursive;
 	font-size: 18px;
 	width: 30%;
-	margin-top: 10%;
-	margin-left: auto;
-	margin-right: auto;
+    margin-top: 6%;
+    margin-left: 4%;
 	padding: 1%;
 }
 
