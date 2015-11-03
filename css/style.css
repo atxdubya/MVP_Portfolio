@@ -15,7 +15,7 @@ body {
 	text-align: center;
 	color: white;
 	font-family: 'Pacifico', cursive;
-	font-size: 3em;	
+	font-size: 2.5em;	
 	text-decoration: underline;
 	padding-top: 8%;
 }
@@ -59,7 +59,7 @@ NAV
 .name {
 	font-family: 'Pacifico', cursive;
 	color: white;
-	font-size: 1.25em;
+	font-size: 1em;
 }
 
 .name:hover {
@@ -117,8 +117,6 @@ PARALLAX
 /*My Adventure*/
 .cd-fixed-bg.cd-bg-1 {
 	background-image: url("../images/bw_hike_shutter.jpg");
-   padding-top: 5%;
-   padding-bottom: 8%;
    border-bottom: 5px ridge grey;
 
  }
@@ -132,7 +130,6 @@ PARALLAX
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
   	background-image: url("../images/traveldesk_shutter_screen.png");
-  	height: 1600px;
   	border-bottom: 5px ridge black;
 }
 
@@ -140,7 +137,6 @@ PARALLAX
 .cd-fixed-bg.cd-bg-4 {
   	background-image: url("../images/traveldesk_shutter_bw_pic.jpg");
   	background-color: white;
-  	height: 825px;
 }
 
 
@@ -154,12 +150,13 @@ MY ADVENTURE
 	height: 80%;
 	display: block;
 	margin: 0 auto;
-	padding-top: 6%;
+	padding-top: 10%;
+	padding-bottom: 8%;
 }
 
 .adventure_title {
-	font-size: 3em;
-	padding-top: 5%;
+	font-size: 2.5em;
+	padding-top: 9.5%;
 	right: 0%;
 	left: 0%;
 	margin-right: auto;
@@ -223,11 +220,11 @@ ARTIFACTS
 
 .artifacts_title {
 	color: #7a5230;
-	font-size: 3em;
+	font-size: 2.5em;
 	border: 4px ridge #926239;
 	background-color: #d2b48c;
 	font-family: 'Pacifico', cursive;
-	width: 17%;
+	width: 15%;
 	margin-top: 7.25%;
 	margin-left: auto;
 	margin-right: auto;
@@ -282,11 +279,11 @@ SKILLS
 
 .skills_title {
 	color: white;
-	font-size: 3em;
+	font-size: 2.5em;
 	border: 4px ridge white;
 	background-color: black;
 	font-family: 'Pacifico', cursive;
-	width: 15%;
+	width: 13%;
 	margin-top: 7.25%;
 	margin-left: auto;
 	margin-right: auto;
@@ -299,10 +296,11 @@ SKILLS
     margin-top: 26%;
     z-index: -1;
     padding-left: 6px;
+    padding-bottom: 10%;
 }
 
 .list_title {
-	font-size: 2.5em;
+	font-size: 2.25em;
 	font-weight: 700;
 	text-decoration: underline;
 	text-align: center;
@@ -323,11 +321,11 @@ CONTACT
 
 .contact_title {
 	color: black;
-	font-size: 3em;
+	font-size: 2.5em;
 	border: 4px ridge black;
 	background-color: white;
 	font-family: 'Pacifico', cursive;
-	width: 15%;
+	width: 13%;
 	margin-top: 7.25%;
 	margin-left: auto;
 	margin-right: auto;
@@ -339,10 +337,9 @@ CONTACT
 	background-color: black;
 	color: white;
 	font-family: 'Comfortaa', cursive;
-	font-size: 18px;
+	font-size: 1.25em;
 	width: 30%;
-    margin-top: 8%;
-    margin-left: 4%;
+    margin: 8% 0% 21.5% 4%;
 	padding: 1%;
 }
 
