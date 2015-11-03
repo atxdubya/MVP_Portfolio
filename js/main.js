@@ -1,11 +1,19 @@
 
 $(function() {
 
-// This animate function slows the page load down until it finishes
-// 	var trail = 'animated pulse';
-// 	$('.trail').addClass(trail);
+// Responsive font
+	$('body').flowtype({
+		minimum   : 500,
+ 		maximum   : 1500,
+ 		minFont   : 4,
+ 		maxFont   : 12,
+ 		fontRatio : 90
+ 	});
 
 // Adventure Page
+	// This animate function slows the page load down until it finishes
+	// 	var trail = 'animated pulse';
+	// 	$('.trail').addClass(trail);
 	$('[data-toggle="popover"]').popover();
 
 	$('.map_button1').click(function() {

@@ -7,14 +7,15 @@ GENERAL
 body {
 	background-color: black;
 	height: 100%;
-	margin: 0px;
+	margin: 0%;
+	font-size: 12pt;
 }
 
 .section_title {
 	text-align: center;
 	color: white;
 	font-family: 'Pacifico', cursive;
-	font-size: 3em;	
+	font-size: 2.5em;	
 	text-decoration: underline;
 	padding-top: 8%;
 }
@@ -40,26 +41,25 @@ NAV
 .navlogo {
 	margin-right: 1%;
     margin-left: 1%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .navbar {
 	background-color: black;
 	border: 5px ridge white;
-	margin-bottom: 0px;
+	margin-bottom: 0%;
 }
 
 .h1_name {
-	padding: 0px;
-	margin-top: 10px;
+	padding: 0%;
 	text-align: right;
 }
 
 .name {
 	font-family: 'Pacifico', cursive;
 	color: white;
-	font-size: 42px;
+	font-size: 1em;
 }
 
 .name:hover {
@@ -74,12 +74,12 @@ NAV
 
 .navlink {
     color: white;
-    font-size: 18px;
+    font-size: 1.25em;
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
-    padding: 0px;
-    width: 175px;
-    margin-left: 36px;
+    padding: .5% 0%;
+    width: 12.5%;
+    margin-left: 2%;
 }
 
 .navlink:hover {
@@ -88,13 +88,13 @@ NAV
 
 @media screen and (max-width: 680px) {
 	.name	{
-		font-size: 24px;
+		font-size: .5em;
 	}
 }
 
 @media screen and (min-width: 680px) and (max-width: 989px) {
 	.name	{
-		font-size: 27px;
+		font-size: .75em;
 	}
 }
 
@@ -107,7 +107,7 @@ PARALLAX
 .cd-fixed-bg {
 	height: 100%;
 	position: relative;
-	background-size: cover;
+	background-size: 100% auto;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -117,22 +117,19 @@ PARALLAX
 /*My Adventure*/
 .cd-fixed-bg.cd-bg-1 {
 	background-image: url("../images/bw_hike_shutter.jpg");
-   padding-top: 5%;
-   padding-bottom: 8%;
    border-bottom: 5px ridge grey;
+
  }
 
 /*Artifacts*/
 .cd-fixed-bg.cd-bg-2 {
   	background-image: url("../images/hike_shutter.jpg");
-  	height: 1800px;
   	border-bottom: 5px ridge #926239;
 }
 
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
   	background-image: url("../images/traveldesk_shutter_screen.png");
-  	height: 1500px;
   	border-bottom: 5px ridge black;
 }
 
@@ -140,7 +137,6 @@ PARALLAX
 .cd-fixed-bg.cd-bg-4 {
   	background-image: url("../images/traveldesk_shutter_bw_pic.jpg");
   	background-color: white;
-  	height: 800px;
 }
 
 
@@ -154,12 +150,13 @@ MY ADVENTURE
 	height: 80%;
 	display: block;
 	margin: 0 auto;
-	padding-top: 6%;
+	padding-top: 10%;
+	padding-bottom: 8%;
 }
 
 .adventure_title {
-	font-size: 3em;
-	padding-top: 5.25%;
+	font-size: 2.5em;
+	padding-top: 9.5%;
 	right: 0%;
 	left: 0%;
 	margin-right: auto;
@@ -182,14 +179,14 @@ MY ADVENTURE
 }
 
 .map_button2 {
-    margin-top: -16%;
+    margin-top: -16.25%;
     margin-left: 41.5%;
     display: none;
 }
 
 .map_button3 {
-	margin-top: -26%;
-    margin-left: 54.5%;
+    margin-top: -25%;
+    margin-left: 54%;
     display: none;
 }
 
@@ -223,7 +220,7 @@ ARTIFACTS
 
 .artifacts_title {
 	color: #7a5230;
-	font-size: 3em;
+	font-size: 2.5em;
 	border: 4px ridge #926239;
 	background-color: #d2b48c;
 	font-family: 'Pacifico', cursive;
@@ -234,37 +231,41 @@ ARTIFACTS
 	padding: 1%;
 }
 
-.project1_position {
-	margin-left: 11%;
-	margin-top: 8%;
-	display: inline-block;
+.project_1 {
+	height: auto;
+	width: 27.5%;
+	display: block;
+	margin: 8% 0% 0% 15%;
 	-ms-transform: rotate(-7deg); /* IE 9 */
     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
     transform: rotate(-7deg);
 }
 
-.project2_position {
-	margin-left: 62%;
-	margin-top: -3%;
-	display: inline-block;
+.project_2 {
+	height: auto;
+	width: 27.5%;
+	display: block;
+	margin: 8% 0% 0% 55%;
 	-ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
 }
 
-.project3_position {
-	margin-left: 11%;
-	margin-top: -3%;
-	display: inline-block;
+.project_3 {
+	height: auto;
+	width: 27.5%;
+	display: block;
+	margin: 8% 0% 0% 15%;
 	-ms-transform: rotate(-7deg); /* IE 9 */
     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
     transform: rotate(-7deg);
 }
 
-.project4_position {
-	margin-left: 62%;
-	margin-top: -3%;
-	display: inline-block;
+.project_4 {
+	height: auto;
+	width: 27.5%;
+	display: block;
+	margin: 8% 0% 14% 55%;
 	-ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
@@ -276,17 +277,13 @@ ARTIFACTS
 SKILLS
 ********/
 
-.skills {
-	margin-top: 10%;
-}
-
 .skills_title {
 	color: white;
-	font-size: 3em;
+	font-size: 2.5em;
 	border: 4px ridge white;
 	background-color: black;
 	font-family: 'Pacifico', cursive;
-	width: 15%;
+	width: 13%;
 	margin-top: 7.25%;
 	margin-left: auto;
 	margin-right: auto;
@@ -296,13 +293,14 @@ SKILLS
 .skills_container {
     color: white;
     font-family: 'Comfortaa', cursive;
-    margin-top: 35%;
+    margin-top: 26%;
     z-index: -1;
-    margin-right: 3.5%;
+    padding-left: 6px;
+    padding-bottom: 10%;
 }
 
 .list_title {
-	font-size: 2.5em;
+	font-size: 2.25em;
 	font-weight: 700;
 	text-decoration: underline;
 	text-align: center;
@@ -323,11 +321,11 @@ CONTACT
 
 .contact_title {
 	color: black;
-	font-size: 3em;
+	font-size: 2.5em;
 	border: 4px ridge black;
 	background-color: white;
 	font-family: 'Pacifico', cursive;
-	width: 15%;
+	width: 13%;
 	margin-top: 7.25%;
 	margin-left: auto;
 	margin-right: auto;
@@ -339,10 +337,9 @@ CONTACT
 	background-color: black;
 	color: white;
 	font-family: 'Comfortaa', cursive;
-	font-size: 18px;
+	font-size: 1.25em;
 	width: 30%;
-    margin-top: 6%;
-    margin-left: 4%;
+    margin: 8% 0% 21.5% 4%;
 	padding: 1%;
 }
 
