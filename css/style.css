@@ -48,6 +48,7 @@ NAV
 	background-color: black;
 	border: 5px ridge white;
 	margin-bottom: 0%;
+	max-height: 100%;
 }
 
 .h1_name {
@@ -85,13 +86,13 @@ NAV
 	color: #42647f;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
 	.name	{
-		font-size: .5em;
+		font-size: .65em;
 	}
 }
 
-@media screen and (min-width: 680px) and (max-width: 989px) {
+@media screen and (min-width: 800px) and (max-width: 1040px) {
 	.name	{
 		font-size: .75em;
 	}
@@ -106,7 +107,7 @@ PARALLAX
 .cd-fixed-bg {
 	height: 100%;
 	position: relative;
-	background-size: 100% auto;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
