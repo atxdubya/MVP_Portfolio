@@ -1,4 +1,3 @@
-
 $(function() {
 
 // Responsive font
