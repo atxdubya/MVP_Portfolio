@@ -174,24 +174,24 @@ MY ADVENTURE
 }
 
 .map_button1 {
-   	margin-top: -18%;
+   	margin-top: -26%;
    	margin-left: 30%;
 }
 
 .map_button2 {
-    margin-top: -16.25%;
+    margin-top: -24.25%;
     margin-left: 41.5%;
     display: none;
 }
 
 .map_button3 {
-    margin-top: -25%;
+    margin-top: -33%;
     margin-left: 54%;
     display: none;
 }
 
 .map_button4 {
-	margin-top: -35%;
+	margin-top: -42.5%;
     margin-left: 60.5%;
     display: none;
 }
@@ -205,11 +205,12 @@ MY ADVENTURE
 	border: 2px ridge red;
 	margin-right: auto;
 	margin-left: 20.5%;
-	margin-top: -18.5%;
+	margin-top: -26.5%;
 	position: absolute;
-	-webkit-animation-duration: .5s;
+/*Animation for trail sign*/
+/*	-webkit-animation-duration: .5s;
 	-webkit-animation-delay: .25s;
-	-webkit-animation-iteration-count: 10;
+	-webkit-animation-iteration-count: 10;*/
 }
 
 
