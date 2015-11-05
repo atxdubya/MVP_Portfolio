@@ -40,6 +40,7 @@ NAV
 .navlogo {
 	margin-right: 1%;
     margin-left: 1%;
+    margin-top: 1%;
     padding-left: 0%;
     padding-right: 0%;
 }
@@ -53,7 +54,7 @@ NAV
 
 .h1_name {
 	padding: 0%;
-	text-align: right;
+	text-align: center;
 }
 
 .name {
@@ -86,15 +87,19 @@ NAV
 	color: #42647f;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
+	.h1_name {
+		width: 75%;
+	}
 	.name	{
-		font-size: .65em;
+		font-size: 1em;
 	}
 }
 
-@media screen and (min-width: 800px) and (max-width: 1040px) {
+
+@media screen and (min-width: 767px) and (max-width: 1040px) {
 	.name	{
-		font-size: .75em;
+		font-size: .72em;
 	}
 }
 
@@ -226,7 +231,7 @@ ARTIFACTS
 	background-color: #d2b48c;
 	font-family: 'Pacifico', cursive;
 	width: 15%;
-	margin-top: 7.25%;
+	margin-top: 8%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1%;
@@ -285,7 +290,7 @@ SKILLS
 	background-color: black;
 	font-family: 'Pacifico', cursive;
 	width: 13%;
-	margin-top: 7.25%;
+	margin-top: 8%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1%;
@@ -327,7 +332,7 @@ CONTACT
 	background-color: white;
 	font-family: 'Pacifico', cursive;
 	width: 13%;
-	margin-top: 7.25%;
+	margin-top: 8%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1%;
@@ -340,7 +345,7 @@ CONTACT
 	font-family: 'Comfortaa', cursive;
 	font-size: 1.25em;
 	width: 30%;
-    margin: 8% 0% 21.5% 4%;
+    margin: 8% 0% 18% 4%;
 	padding: 1%;
 }
 
