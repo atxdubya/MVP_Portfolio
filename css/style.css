@@ -10,6 +10,19 @@ body {
 	font-size: 12pt;
 }
 
+h1 {
+	margin-bottom: 1.5%;
+	padding: 0%;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 2.5em;
+}
+
+a {
+	color: white;
+}
+
 .section_title {
 	text-align: center;
 	color: white;
@@ -37,30 +50,16 @@ li {
 NAV
 ********/
 
-.navlogo {
-	margin-right: 1%;
-    margin-left: 1%;
-    margin-top: 1%;
-    padding-left: 0%;
-    padding-right: 0%;
+.nav_logo {
+  width: auto;
+  height: 40px;
+  margin-top: -25px;
+  padding-right: 1%;
 }
 
 .navbar {
 	background-color: black;
 	border: 5px ridge white;
-	margin-bottom: 0%;
-	max-height: 100%;
-}
-
-.h1_name {
-	padding: 0%;
-	text-align: center;
-}
-
-.name {
-	font-family: 'Pacifico', cursive;
-	color: white;
-	font-size: 1em;
 }
 
 .name:hover {
@@ -70,36 +69,44 @@ NAV
 
 .navlist {
 	display: inline;
-	text-align: right;
+	text-align: center;
 }
 
 .navlink {
-    color: white;
-    font-size: 1.25em;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
-    padding: .5% 0%;
-    width: 12.5%;
-    margin-left: 2%;
+  color: white;
+  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .navlink:hover {
 	color: #42647f;
 }
 
-@media screen and (max-width: 767px) {
-	.h1_name {
-		width: 75%;
-	}
-	.name	{
-		font-size: 1em;
-	}
+.navbar-header {
+	padding-left: 0px;
 }
 
+.navbar-toggle {
+	float: left;
+	background-color: #42647f;
+}
 
-@media screen and (min-width: 767px) and (max-width: 1040px) {
-	.name	{
-		font-size: .72em;
+@media screen and (max-width: 767px) {
+	h1 {
+		margin-top: 2.5%;
+		font-size: 3em;
+	}
+	.nav_logo {
+		width: auto;
+  	height: 20px;
+  	margin-top: -10px;
+	}
+
+	.navlink {
+		font-size: 1.25em;
 	}
 }
 
@@ -122,26 +129,26 @@ PARALLAX
 /*My Adventure*/
 .cd-fixed-bg.cd-bg-1 {
 	background-image: url("../images/bw_hike_shutter.jpg");
-   border-bottom: 5px ridge grey;
+  border-bottom: 5px ridge grey;
 
  }
 
 /*Artifacts*/
 .cd-fixed-bg.cd-bg-2 {
-  	background-image: url("../images/hike_shutter.jpg");
-  	border-bottom: 5px ridge #926239;
+  background-image: url("../images/hike_shutter.jpg");
+  border-bottom: 5px ridge #926239;
 }
 
 /*Skills*/
 .cd-fixed-bg.cd-bg-3 {
-  	background-image: url("../images/traveldesk_shutter_screen.png");
-  	border-bottom: 5px ridge black;
+  background-image: url("../images/traveldesk_shutter_screen.png");
+  border-bottom: 5px ridge black;
 }
 
 /*Contact*/
 .cd-fixed-bg.cd-bg-4 {
-  	background-image: url("../images/traveldesk_shutter_bw_pic.jpg");
-  	background-color: white;
+  background-image: url("../images/traveldesk_shutter_bw_pic.jpg");
+  background-color: white;
 }
 
 
