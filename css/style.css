@@ -28,6 +28,18 @@ h2 {
 	padding-top: 8%;
 }
 
+h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5em;	
+	text-decoration: underline;
+}
+
+p {
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.25em;
+}
+
 a {
 	color: white;
 }
@@ -104,7 +116,6 @@ NAV
   	height: 20px;
   	margin-top: -10px;
 	}
-
 	.navlink {
 		font-size: 1.25em;
 	}
@@ -130,7 +141,6 @@ PARALLAX
 .cd-fixed-bg.cd-bg-1 {
 	background-image: url("../images/bw_hike_shutter.jpg");
   border-bottom: 5px ridge grey;
-
  }
 
 /*Artifacts*/
@@ -225,9 +235,43 @@ MY ADVENTURE
 	-webkit-animation-iteration-count: 10;*/
 }
 
-@media screen and (max-width: 767px) {
-	
+@media screen and (max-width: 415px) {
+	.adventure_title {
+		margin-top: 60%;
+		color: white;
+		border: 4px ridge white;
+		background-color: black;
+		font-family: 'Pacifico', cursive;
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1%;
+	}
+	.frame_photo, .trail, .map-btn {
+		display: none;
+	}
+	.cd-bg-1 {
+		height: 800px;
+	}
+	h3 {
+		color: white;
+	}
+	.mobile_adventure {
+		margin-top: 50%;
+		padding-top: 10%;
+		padding-left: 2%;
+		padding-bottom: 5%;
+		background-color: black;
+		border: 5px ridge white;
+	}
 }
+
+@media screen and (min-width: 415px) {
+	.mobile_adventure {
+		display: none;
+	}
+}
+
 
 
 /********
@@ -285,6 +329,34 @@ ARTIFACTS
 	-ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
+}
+
+@media screen and (max-width: 415px) {
+	.artifacts_title {
+		color: #7a5230;
+		font-size: 2.5em;
+		border: 4px ridge #926239;
+		background-color: #d2b48c;
+		font-family: 'Pacifico', cursive;
+		width: 20%;
+		margin-top: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1%;
+	}
+	.project_1, .project_2, .project_3, .project_4{
+	height: auto;
+	width: 50%;
+	display: block;
+	margin: 0% auto;
+	padding-top: 5%;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	}
+	.project_4 {
+		padding-bottom: 5%;
+	}
 }
 
 
