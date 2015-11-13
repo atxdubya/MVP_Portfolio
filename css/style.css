@@ -237,11 +237,9 @@ MY ADVENTURE
 
 @media screen and (max-width: 415px) {
 	.adventure_title {
-		margin-top: 60%;
-		color: white;
+		margin-top: 55%;
 		border: 4px ridge white;
 		background-color: black;
-		font-family: 'Pacifico', cursive;
 		width: 30%;
 		margin-left: auto;
 		margin-right: auto;
@@ -253,16 +251,30 @@ MY ADVENTURE
 	.cd-bg-1 {
 		height: 800px;
 	}
+/*	#adventure {
+		background-image: none;
+		border: 5px ridge white;
+	}*/
+		#adventure {
+		background-color: black;
+		background-size: 90% 32%;
+		border: 5px ridge white;
+		background-attachment: scroll;
+	}
 	h3 {
 		color: white;
+		font-size: 1.75em;
+	}
+	p {
+		font-size: 1.5em;
 	}
 	.mobile_adventure {
-		margin-top: 50%;
-		padding-top: 10%;
-		padding-left: 2%;
+		margin-top: 62%;
+		padding-top: 5%;
+		padding-left: 6%;
 		padding-bottom: 5%;
 		background-color: black;
-		border: 5px ridge white;
+		opacity: .5;
 	}
 }
 
@@ -333,20 +345,17 @@ ARTIFACTS
 
 @media screen and (max-width: 415px) {
 	.artifacts_title {
-		color: #7a5230;
-		font-size: 2.5em;
-		border: 4px ridge #926239;
-		background-color: #d2b48c;
-		font-family: 'Pacifico', cursive;
 		width: 20%;
-		margin-top: 25%;
-		margin-left: auto;
-		margin-right: auto;
-		padding: 1%;
+		margin-top: 28%;
+	}
+	#artifacts {
+		background-image: none;
+		background-color: #d2b48c;
+		border: 5px ridge #926239;
 	}
 	.project_1, .project_2, .project_3, .project_4{
 	height: auto;
-	width: 50%;
+	width: 80%;
 	display: block;
 	margin: 0% auto;
 	padding-top: 5%;
@@ -355,7 +364,7 @@ ARTIFACTS
     transform: rotate(0deg);
 	}
 	.project_4 {
-		padding-bottom: 5%;
+		padding-bottom: 25%;
 	}
 }
 
@@ -401,7 +410,33 @@ SKILLS
 	text-align: center;
 }
 
+@media screen and (max-width: 415px) {
+	.skills_title {
+		width: 20%;
+		margin-top: 28%;
+	}
+	#skills {
+		background-size: 90% 40%;
+		border: 5px ridge white;
+		background-attachment: scroll;
+		height: 600px;
+	}
+	.skills_container {
+		z-index: 1;
+	}
+	.web_skills {
+		display: none;
+	}
+	.mobile_skills {
+		margin-top: 45%;
+	}
+}
 
+@media screen and (min-width: 415px) {
+	.mobile_skills {
+		display: none;
+	}
+}
 
 /********
 CONTACT
@@ -427,7 +462,7 @@ CONTACT
 	font-family: 'Comfortaa', cursive;
 	font-size: 1.25em;
 	width: 32%;
-    margin: 8% 0% 18% 4%;
+  margin: 8% 0% 18% 4%;
 	padding: 1%;
 }
 
@@ -440,14 +475,28 @@ CONTACT
 	color: #42647f;
 }
 
+@media screen and (max-width: 415px) {
+	.contact_title {
+		width: 20%;
+		margin-top: 25%;
+	}
+	#contact {
+		background-size: 90% 40%;
+		border: 5px ridge black;
+		background-attachment: scroll;
+		height: 600px;
+	}
+	.contact_info {
+		margin: 75% auto 0;
+		width: 50%;
+	}
+}
+
 
 
 /********
 FOOTER
 ********/
-
-
-
 
 
 
