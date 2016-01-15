@@ -196,26 +196,26 @@ MY ADVENTURE
 }
 
 .map_button1 {
-   	margin-top: -26%;
-   	margin-left: 30%;
+ 	margin-top: -26%;
+ 	margin-left: 30%;
 }
 
 .map_button2 {
-    margin-top: -24.25%;
-    margin-left: 41.5%;
-    display: none;
+  margin-top: -24.25%;
+  margin-left: 41.5%;
+  display: none;
 }
 
 .map_button3 {
-    margin-top: -33%;
-    margin-left: 54%;
-    display: none;
+  margin-top: -33%;
+  margin-left: 54%;
+  display: none;
 }
 
 .map_button4 {
 	margin-top: -42.5%;
-    margin-left: 60.5%;
-    display: none;
+  margin-left: 60.5%;
+  display: none;
 }
 
 .trail {
